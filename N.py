@@ -1,5 +1,8 @@
 import time
 
+counter = 1
+
 while True:
-    print("مرحبا بكم")
+    print(f"مرحبا بكم {counter}")
+    counter += 1
     time.sleep(0.2)
